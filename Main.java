@@ -14,7 +14,7 @@ public class Main {
 	public static void main(String[] args) {
 		do {
 			myBoolean = false;
-			System.out.println("Введіть дані та натисність Enter:");
+			System.out.println("Р’РІРµРґС–С‚СЊ РґР°РЅС– С‚Р° РЅР°С‚РёСЃРЅС–СЃС‚СЊ Enter:");
 			Scanner sc = new Scanner(System.in);
 			String str = sc.nextLine();
 			try {
@@ -26,7 +26,7 @@ public class Main {
 				}
 			}
 			if (myBoolean) {
-				System.out.println("Невірне введення! Повторіть введення.");
+				System.out.println("РќРµРІС–СЂРЅРµ РІРІРµРґРµРЅРЅСЏ! РџРѕРІС‚РѕСЂС–С‚СЊ РІРІРµРґРµРЅРЅСЏ.");
 			} else {
 				System.out.println(result);
 				myBoolean = false;
