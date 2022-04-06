@@ -112,9 +112,9 @@ public class MyRomanNambers {
 	
 	private void myException (float fl) throws MyException {
 		if (fl > 3999) {
-			throw new MyException("Занадто велике число!");
+			throw new MyException("Р—Р°РЅР°РґС‚Рѕ РІРµР»РёРєРµ С‡РёСЃР»Рѕ!");
 		} else if (fl <= 0) {
-			throw new MyException("Неіснуюче число!");
+			throw new MyException("РќРµС–СЃРЅСѓСЋС‡Рµ С‡РёСЃР»Рѕ!");
 		}
 	}
 	
@@ -142,7 +142,7 @@ public class MyRomanNambers {
 			}
 		}
 		if (booleanInt == 0) {
-			throw new MyException("Неіснуюче число!");
+			throw new MyException("РќРµС–СЃРЅСѓСЋС‡Рµ С‡РёСЃР»Рѕ!");
 		}
 	}
 }
